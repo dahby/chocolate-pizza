@@ -1,0 +1,182 @@
+body {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  height: 100px; 
+}
+
+nav {
+  display: inline-block;
+  width: 500px;
+}
+
+#logos {
+  margin-top: 25px;
+  width: 500px;
+  display: inline-block;
+}
+
+#logoimg {
+  margin-top: 20px;
+}
+
+#logoimg, #logo #tagline {
+  float: left;
+  margin-right: 10px;
+}
+
+#logo #tagline {
+  margin-top: 20px;
+}
+
+#logo {
+  font-family: 'Yellowtail', cursive;
+  font-size: 35px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+#tagline {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+#icons {
+  float: right;
+  margin-top: 60px;
+  width: 300px;
+  height: 20px;
+}
+
+header ul  {
+  float: right;
+  margin-right: 0px;
+}
+
+header li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+#posted {
+  float: left;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+main {
+  border-top: 10px double;
+  margin-top: 20px;
+}
+
+#cpTitle {
+  margin-top: 30px;
+  font-family: Franklin Gothic,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+button {
+  float: right;
+}
+
+#notPizza {
+  margin-top: 25px;
+  width: 100%;
+}
+
+main div p {
+  text-indent: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+section ul {
+  columns: 2;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size:20px;
+  margin: 10px auto;
+  padding: 20px;
+  background-image: url(http://www.deborah-bickel.de/wp-content/uploads/2012/08/preview_lined-notepaper.jpg);
+  height: 235px;
+  width: 900px;
+  list-style: square inside none;
+  line-height: 30px;
+  
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+footer {
+  height: 160px; 
+  margin-top: 25px;
+  border-top: 10px double;
+}
+
+footer bio {
+  margin: 25px;
+  display: inline-block;
+}
+
+footer bio img {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin: 10px 20px 0 5px;
+}
+
+footer bio h1 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+footer bio p {
+  margin-top: 10px;
+  font-size: 20px;
+  width: 700px;
+}
+
+footer button {
+  float: right;
+  background-color: #995a0d;
+  color: white;
+  height: 45px;
+  width: 150px;
+  margin: 40px 25px 50px 0px;
+}
+
+footer div {
+  margin: 60px auto;
+  text-align: center;
+  vertical-align: middle;
+  color: gray;
+}
+
+footer div div img {
+  position: relative;
+  z-index: 2;
+  left: 0px;
+  top: 0px;
+  vertical-align: middle;
+}
+
+footer div div {
+  background-color: lightgray;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+  margin-top: 0px;
+}
