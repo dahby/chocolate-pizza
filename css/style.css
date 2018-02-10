@@ -4,13 +4,26 @@ body {
 }
 
 header {
-  background: rgb(252, 252, 247);
   height: 100px; 
+}
+
+nav {
+  display: inline-block;
+  width: 500px;
+}
+
+#logos {
+  margin-top: 25px;
+  width: 500px;
+  display: inline-block;
+}
+
+#logoimg {
+  margin-top: 20px;
 }
 
 #logoimg, #logo #tagline {
   float: left;
-  /* margin-top: 20px; */
   margin-right: 10px;
 }
 
@@ -27,26 +40,19 @@ header {
 
 #tagline {
   float: left;
-  /* margin-top: 50px; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
 }
 
-
-/* nav { 
-  width: 960px;
-  margin: auto;
-}  */
-
-/* header img {
-  float: left;
-  margin-top: 15px;
-  margin-right: 30px;
-} */
+#icons {
+  float: right;
+  margin-top: 60px;
+  width: 300px;
+  height: 20px;
+}
 
 header ul  {
   float: right;
-  /* margin-top: 20px; */
   margin-right: 0px;
 }
 
@@ -66,8 +72,13 @@ a {
   font-size: 10px;
 }
 
+main {
+  border-top: 10px double;
+  margin-top: 20px;
+}
+
 #cpTitle {
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: Franklin Gothic,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -106,9 +117,9 @@ section ul {
 }
 
 footer {
-  background: rgb(252, 252, 247);
-  height: 200px; 
+  height: 160px; 
   margin-top: 25px;
+  border-top: 10px double;
 }
 
 footer bio {
@@ -141,11 +152,31 @@ footer button {
   color: white;
   height: 45px;
   width: 150px;
-  margin: 60px 25px 50px 0px;
+  margin: 40px 25px 50px 0px;
 }
 
 footer div {
-  margin: 40px auto;
+  margin: 60px auto;
   text-align: center;
   vertical-align: middle;
+  color: gray;
+}
+
+footer div div img {
+  position: relative;
+  z-index: 2;
+  left: 0px;
+  top: 0px;
+  vertical-align: middle;
+}
+
+footer div div {
+  background-color: lightgray;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+  margin-top: 0px;
 }
