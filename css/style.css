@@ -8,20 +8,26 @@ header {
   height: 100px; 
 }
 
-#logoimg, #logo {
+#logoimg, #logo #tagline {
   float: left;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-right: 10px;
+}
+
+#logo #tagline {
+  margin-top: 20px;
 }
 
 #logo {
   font-family: 'Yellowtail', cursive;
   font-size: 35px;
+  margin-top: 20px;
+  width: 200px;
 }
 
 #tagline {
   float: left;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
 }
@@ -40,9 +46,8 @@ header {
 
 header ul  {
   float: right;
-  margin-top: 20px;
-  margin-right: 0
-  px;
+  /* margin-top: 20px; */
+  margin-right: 0px;
 }
 
 header li {
@@ -83,15 +88,16 @@ main div p {
 }
 
 section ul {
+  columns: 2;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size:25px;
+  font-size:20px;
   margin: 10px auto;
-  padding: 25px;
+  padding: 20px;
   background-image: url(http://www.deborah-bickel.de/wp-content/uploads/2012/08/preview_lined-notepaper.jpg);
-  height: 400px;
+  height: 235px;
   width: 900px;
   list-style: square inside none;
-  line-height: 35px;
+  line-height: 30px;
   
 }
 
@@ -105,15 +111,41 @@ footer {
   margin-top: 25px;
 }
 
+footer bio {
+  margin: 25px;
+  display: inline-block;
+}
+
 footer bio img {
   float: left;
   height: 100px;
   width: 100px;
-  margin: 10px 10px 0 5px;
+  margin: 10px 20px 0 5px;
 }
 
 footer bio h1 {
   font-weight: bold;
   font-size: 20px;
   padding-top: 10px;
+}
+
+footer bio p {
+  margin-top: 10px;
+  font-size: 20px;
+  width: 700px;
+}
+
+footer button {
+  float: right;
+  background-color: #995a0d;
+  color: white;
+  height: 45px;
+  width: 150px;
+  margin: 60px 25px 50px 0px;
+}
+
+footer div {
+  margin: 40px auto;
+  text-align: center;
+  vertical-align: middle;
 }
